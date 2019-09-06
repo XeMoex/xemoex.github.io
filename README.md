@@ -2,4 +2,4 @@
 Portfolio
 
 
-[Interstellar travels](https://xemoex.github.io/Interstellar%20travels/ "Studying project BrainBasket")
+[Interstellar travels V1](https://xemoex.github.io/Interstellar%20travels/ "Studying project BrainBasket")
