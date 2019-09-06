@@ -1,0 +1,360 @@
+/*general*/
+*{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: ;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+/*header*/
+.header{
+    width: 100%;
+    height: 55px;
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(45, 45, 66, 0.70);
+    position: fixed;
+    top: 0;
+    z-index: 5;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(253, 253, 253);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+nav ul li {
+    list-style-type: none;
+    display: inline;
+
+}
+nav ul {
+    margin-left: 0;
+    padding-left: 0;
+}
+nav{
+    font-size: 22px;
+    font-family: 'Ubuntu', sans-serif;
+    color: azure;
+    margin-right: 20px;
+}
+.logo{
+    background-image: url(../img/planet_logo2.png);
+    background-size: 100%;
+    margin-right: 5px;
+    width: 48px;
+    height: 48px;
+    margin-left: 20px;
+    
+}
+.name{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'Ubuntu', sans-serif;
+    color: azure;
+}
+/*main*/
+.jmbrotron{
+    position: relative;
+    background-image: url(../img/galaxy2.jpg);
+    background-size: 100%;
+    width: 100%;
+    height: /*760px*/540px;
+}
+/*.jmbrotron:before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height:15px;
+    top: -15px;
+    left: 0;
+    background-color:  rgba(36, 36, 36, 0.555);
+}
+.jmbrotron:after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height:15px;
+    bottom: -15px;
+    left: 0;
+    background-color:  rgba(36, 36, 36, 0.555);
+}*/
+
+h1{
+    text-align: center;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+h3{
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+.about{
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    width: 70%;
+    padding: 0px 30px;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+p{
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-align: left;
+    
+}
+.compolpro{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.company{
+    text-align: center;
+    
+}
+.podorozhi{
+    text-align: center;
+}
+.programa{
+    text-align: center;
+}
+.gallery{
+    width: 100%;
+    height: 300;
+    background-color: rgb(25, 23, 37);
+}
+
+.planets{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 1100px;
+    height: 1100px;
+    margin: 0 auto;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+.mercury{
+    background-image: url(../img/mercury.png);
+    background-size: 100%;
+    height: 300px;
+    width: 300px;
+    margin: 20px;
+    border-radius: 180px;
+}
+.venus{
+    background-image: url(../img/venus.png);
+    background-size: 100%;
+    height: 300px;
+    width: 300px;
+    margin: 20px;
+    border-radius: 180px;
+}
+.earth{
+    background-image: url(../img/earth.png);
+    background-size: 100%;
+    height: 300px;
+    width: 300px;
+    margin: 20px;
+    border-radius: 180px;
+}
+.mars{
+    background-image: url(../img/mars.png);
+    background-size: 100%;
+    height: 300px;
+    width: 300px;
+    margin: 20px;
+    border-radius: 180px;
+}
+.jupiter{
+    background-image: url(../img/jupiter.png);
+    background-size: 100%;
+    height: 300px;
+    width: 300px;
+    margin: 20px;
+    border-radius: 180px;
+}
+.saturn{
+    background-image: url(../img/saturn.png);
+    background-size: 100%;
+    height: 300px;
+    width: 300px;
+    margin: 20px;
+    border-radius: 180px;
+}
+.uranus{
+    background-image: url(../img/uranus.png);
+    background-size: 100%;
+    height: 300px;
+    width: 300px;
+    margin: 20px;
+    border-radius: 180px;
+}
+.neptune{
+    background-image: url(../img/neptune.png);
+    background-size: 100%;
+    height: 300px;
+    width: 300px;
+    margin: 20px;
+    border-radius: 180px;`
+}
+.pluto{
+    background-image: url(../img/pluto.png);
+    background-size: 100%;
+    height: 300px;
+    width: 300px;
+    margin: 20px;
+    border-radius: 180px;
+}
+.button{
+    padding: 10px;
+    background-color: red;
+    color: rgba(180, 180, 180, 0);
+}
+.planet{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 300px;
+    color: rgba(180, 180, 180, 0);
+    /*background-color: rgba(240, 248, 255, 0);*/
+}
+.planet:{
+    overflow: hidden;
+}
+.planet:hover{
+    color: rgba(180, 180, 180, 0.9);;
+    background-color: rgba(180, 180, 180, 0.63);
+    transition: all 0.7s;
+    text-align: center;
+    border-radius: 180px;
+}
+/*footer*/
+.footer{
+    width: 100%;
+    height: 350px;
+    background-color: rgb(58, 58, 58);
+    margin-bottom: 0;
+    padding-bottom: 0;
+    display: flex;
+    flex-direction: row;
+    color: white;
+     align-items: center;
+}
+.contacts{
+    margin-left: 180px;
+}
+.social{
+    margin-right: 180px;
+}
+.nomer{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+.login-page {
+  width: 360px;
+  margin: auto;
+  padding-top: 45px;
+  color: black;
+  margin-right: 50px;
+}
+.form {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.form button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: rgb(58, 58, 58);
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+.form button:hover{
+  background: rgb(82, 82, 82);
+  transition: 0.5s all;
+}
+.form .message {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+
+.fimg{
+    background-image: url(../img/facebook.png);
+    background-size: 100%;
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+}
+.iimg{
+    background-image: url(../img/instagram.png);
+    background-size: 100%;
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+}
+.timg{
+    background-image: url(../img/twitter.png);
+    background-size: 100%;
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+}
+.fbook{
+    text-decoration: none;
+    color: white;
+}
+.inst{
+    text-decoration: none;
+    color: yellow;
+}
+.twitt{
+    text-decoration: none;
+    color: lightblue;
+}
+.facebook{
+    display: flex;
+    flex-direction: row;
+}
+.instagram{
+    display: flex;
+    flex-direction: row;
+}
+.twitter{
+    display: flex;
+    flex-direction: row;
+}
